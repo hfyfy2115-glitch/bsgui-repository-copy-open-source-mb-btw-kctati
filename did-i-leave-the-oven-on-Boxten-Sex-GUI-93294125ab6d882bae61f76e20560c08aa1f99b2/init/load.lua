@@ -56,7 +56,7 @@ end
 local function get(url)
 local response=request{
 Url=url,
-Method="GET",
+Method="GET"
 }
 
 if response and response.Success then
@@ -573,7 +573,7 @@ end
 
 local assetex={
 images={
-["ive%20made%20a%20severe%20and%20continuous%20lapse%20in%20my%20judgement.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/ive made a severe and continuous lapse in my judgement.png",
+["ive made a severe and continuous lapse in my judgement.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/ive made a severe and continuous lapse in my judgement.png",
 ["heterochromia.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/heterochromia.png",
 ["daschund.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/daschund.png"
 },
