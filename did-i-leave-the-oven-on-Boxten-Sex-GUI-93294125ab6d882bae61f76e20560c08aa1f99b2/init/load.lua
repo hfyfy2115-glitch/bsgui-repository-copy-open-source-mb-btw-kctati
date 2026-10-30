@@ -53,8 +53,6 @@ local function yield(this)
 repeat t()until this()
 end
 
-local token="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"
-
 local function get(url)
 local response=request{
 Url=url,
@@ -74,9 +72,9 @@ return nil
 end
 
 local profilepictures={
-boxten=loadstring(game:HttpGet"https://file.garden/aeCBJQxbaAqRGHah/boxten.png"),
-poppy=loadstring(game:HttpGet"https://file.garden/aeCBJQxbaAqRGHah/poppy.png"),
-shrimpo=loadstring(game:HttpGet"https://file.garden/aeCBJQxbaAqRGHah/shirmpo.png")
+boxten=loadstring(game:HttpGet"https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/boxten.png?raw=true"),
+poppy=loadstring(game:HttpGet"https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/poppy.png?raw=true"),
+shrimpo=loadstring(game:HttpGet"https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/shrimpo.png?raw=true")
 }
 
 local function sendwh(content,embed,from,url)
@@ -115,12 +113,12 @@ end
 getgenv.BSGUI={}
 local env=getgenv.BSGUI
 
-local versioninfosource=get"https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/data/internal/version%20info.lua"
+local versioninfosource=get"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/refs/heads/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/data/internal/version%20info.lua"
 if versioninfosource then
 env.expectedscriptversions=loadstring(versioninfosource)().sections
 end
 
-local fileinfosource=get"https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/data/internal/file%20info.lua"
+local fileinfosource=get"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/refs/heads/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/data/internal/file%20info.lua"
 if fileinfosource then
 env.folder=loadstring(fileinfosource)().foldername
 end
@@ -273,7 +271,7 @@ txtcs.TextChannels.RBXGeneral:DisplaySystemMessage("<font color=\"rgb(247, 109, 
 end
 end
 
-local setupsource=get"https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/init/build/setup.lua"
+local setupsource=get"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/refs/heads/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/init/build/setup.lua"
 
 if setupsource then
 loadstring(setupsource)()
@@ -579,17 +577,17 @@ end
 
 local assetex={
 images={
-["ive made a severe and continuous lapse in my judgement.png"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/assets/images/ive%20made%20a%20severe%20and%20continuous%20lapse%20in%20my%20judgement.png",
-["heterochromia.png"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/assets/images/heterochromia.png",
-["daschund.png"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/assets/images/daschund.png"
+["ive made a severe and continuous lapse in my judgement.png"]="https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/ive%20made%20a%20severe%20and%20continuous%20lapse%20in%20my%20judgement.png?raw=true",
+["heterochromia.png"]="https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/heterochromia.png?raw=true",
+["daschund.png"]="https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/daschund.png?raw=true"
 },
 videos={
-["dandelions forever.webm"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/assets/videos/dandelions%20forever.webm",
+["dandelions forever.webm"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/videos/dandelions forever.webm",
 },
 sounds={
-["ringtone.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/assets/audios/ringtone.mp3",
-["flashbang.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/assets/audios/flashbang.mp3",
-["wall.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/assets/audios/wall.mp3",
+["ringtone.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/ringtone.mp3",
+["flashbang.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/flashbang.mp3",
+["wall.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/wall.mp3",
 }
 }
 
@@ -687,7 +685,7 @@ env.funcs.introconsolelog("Constructing UI...","state")
 env.funcs.introprogress(60)
 
 local buildsucc
-local buildsource=get"https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/init/build/constructor.lua"
+local buildsource=get"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/refs/heads/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/init/build/constructor.lua"
 if buildsource then
 buildsucc=loadstring(buildsource)()
 end
