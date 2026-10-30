@@ -36,26 +36,21 @@ end
 
 
 
-local token="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"
+
 
 local function get(url)
-local response=request{
-Url=url,
-Method="GET",
-Headers={Authorization=
-"Bearer "..token,Accept=
-"application/vnd.github.v3.raw"
-}
-}
-
-if response and response.Success then
-return response.Body
+    local response=request{
+        Url=url,
+        Method="GET"
+    }
+    if response and response.Success then
+        return response.Body
+    end
+    say("p","Something went wrong while trying to execute Boxten Sex GUI.")
+    warn("[Poppy]: Something went wrong while trying to execute Boxten Sex GUI: Status "..tostring(response and response.StatusCode))
+    return nil
 end
 
-say("p","Something went wrong while trying to execute Boxten Sex GUI.")
-warn("[Poppy]: Something went wrong while trying to execute Boxten Sex GUI: Status "..tostring(response and response.StatusCode))
-return nil
-end
 
 
 
