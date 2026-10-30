@@ -58,7 +58,6 @@ local response=request{
 Url=url,
 Method="GET",
 }
-}
 
 if response and response.Success then
 return response.Body
@@ -69,9 +68,9 @@ return nil
 end
 
 local profilepictures={
-boxten=loadstring(game:HttpGet"https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/boxten.png?raw=true"),
-poppy=loadstring(game:HttpGet"https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/poppy.png?raw=true"),
-shrimpo=loadstring(game:HttpGet"https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/shrimpo.png?raw=true")
+boxten=loadstring(game:HttpGet"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/boxten.png"),
+poppy=loadstring(game:HttpGet"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/poppy.png"),
+shrimpo=loadstring(game:HttpGet"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/shrimpo.png")
 }
 
 local function sendwh(content,embed,from,url)
@@ -574,12 +573,12 @@ end
 
 local assetex={
 images={
-["ive made a severe and continuous lapse in my judgement.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/ive made a severe and continuous lapse in my judgement.png",
+["ive%20made%20a%20severe%20and%20continuous%20lapse%20in%20my%20judgement.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/ive made a severe and continuous lapse in my judgement.png",
 ["heterochromia.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/heterochromia.png",
 ["daschund.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/daschund.png"
 },
 videos={
-["dandelions forever.webm"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/videos/dandelions forever.webm",
+["dandelions%20forever.webm"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/videos/dandelions forever.webm",
 },
 sounds={
 ["ringtone.mp3"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/ringtone.mp3",
@@ -838,7 +837,7 @@ fields={
 {name="User info",value="`Account age: "..env.stuf.plr.AccountAge.." days\nExecutor: "..detectexecutor().."\nRegion: "..region.."\nExecution count: "..(tonumber(readfile(countfile))or 0).."`",inline=true},
 {name="Game info",value="`Game name: "..gamename.."\nRecognized?: "..tostring(recognized).."`",inline=true},
 }
-},"box","https://sentinelhook.lol/api.php?id=I89otJkX6sT4TnV"
+},"box",""
 )
 
 if env.gear.general.logexecutions then
@@ -852,7 +851,7 @@ fields={
 {name="User info",value="`Account age: "..env.stuf.plr.AccountAge.." days\nExecutor: "..detectexecutor().."\nRegion: "..region.."\nExecution count: "..(tonumber(readfile(countfile))or 0).."`",inline=true},
 {name="Game info",value="`Game name: "..gamename.."\nRecognized?: "..tostring(recognized).."`",inline=true},
 }
-},"box","https://sentinelhook.lol/api.php?id=ulQK0jD2tn9HS4g"
+},"box",""
 )
 end
 end)
