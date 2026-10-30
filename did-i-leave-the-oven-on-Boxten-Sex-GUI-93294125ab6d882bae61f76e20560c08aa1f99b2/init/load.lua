@@ -57,9 +57,6 @@ local function get(url)
 local response=request{
 Url=url,
 Method="GET",
-Headers={Authorization=
-"Bearer "..token,Accept=
-"application/vnd.github.v3.raw"
 }
 }
 
@@ -577,17 +574,17 @@ end
 
 local assetex={
 images={
-["ive made a severe and continuous lapse in my judgement.png"]="https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/ive%20made%20a%20severe%20and%20continuous%20lapse%20in%20my%20judgement.png?raw=true",
-["heterochromia.png"]="https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/heterochromia.png?raw=true",
-["daschund.png"]="https://github.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/blob/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/daschund.png?raw=true"
+["ive made a severe and continuous lapse in my judgement.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/ive made a severe and continuous lapse in my judgement.png",
+["heterochromia.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/heterochromia.png",
+["daschund.png"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/images/daschund.png"
 },
 videos={
-["dandelions forever.webm"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/videos/dandelions forever.webm",
+["dandelions forever.webm"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/videos/dandelions forever.webm",
 },
 sounds={
-["ringtone.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/ringtone.mp3",
-["flashbang.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/flashbang.mp3",
-["wall.mp3"]="https://raw.githubusercontent.com/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/wall.mp3",
+["ringtone.mp3"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/ringtone.mp3",
+["flashbang.mp3"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/flashbang.mp3",
+["wall.mp3"]="https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/assets/audios/wall.mp3",
 }
 }
 
