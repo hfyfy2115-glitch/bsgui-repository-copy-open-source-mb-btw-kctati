@@ -1,4 +1,3 @@
-
 local cloneref=cloneref or function(...)return...end
 
 local plrs=cloneref(game:GetService"Players")
@@ -22,21 +21,15 @@ local request=request or http_request or nil local _=
 (syn and syn.isfile)or isfile or nil local _=
 (syn and syn.clonefunction)or clonefunction or nil
 
-
-
 local function say(from,text)
-if from=="b"then
-txtcs.TextChannels.RBXGeneral:DisplaySystemMessage("<font color=\"rgb(175, 52, 209)\">Boxten:</font> "..text)
-elseif from=="p"then
-txtcs.TextChannels.RBXGeneral:DisplaySystemMessage("<font color=\"rgb(112, 234, 255)\">Poppy:</font> "..text)
-elseif from=="s"then
-txtcs.TextChannels.RBXGeneral:DisplaySystemMessage("<font color=\"rgb(247, 109, 40)\">Shrimpo:</font> "..text)
+    if from=="b"then
+        txtcs.TextChannels.RBXGeneral:DisplaySystemMessage("<font color=\"rgb(175, 52, 209)\">Boxten:</font> "..text)
+    elseif from=="p"then
+        txtcs.TextChannels.RBXGeneral:DisplaySystemMessage("<font color=\"rgb(112, 234, 255)\">Poppy:</font> "..text)
+    elseif from=="s"then
+        txtcs.TextChannels.RBXGeneral:DisplaySystemMessage("<font color=\"rgb(247, 109, 40)\">Shrimpo:</font> "..text)
+    end
 end
-end
-
-
-
-
 
 local function get(url)
     local response=request{
@@ -51,31 +44,25 @@ local function get(url)
     return nil
 end
 
-
-
-
 if identifyexecutor then
-if string.lower(identifyexecutor()):find"xeno"or string.lower(identifyexecutor()):find"solara"then
-say("s","YOUR EXECUTOR DOES NOT SUPPORT BOXTEN SEX GUI.")
-return
-end
+    if string.lower(identifyexecutor()):find"xeno" or string.lower(identifyexecutor()):find"solara" then
+        say("s","YOUR EXECUTOR DOES NOT SUPPORT BOXTEN SEX GUI.")
+        return
+    end
 else
-say("s","YOUR EXECUTOR DOES NOT SUPPORT BOXTEN SEX GUI.")
-return
+    say("s","YOUR EXECUTOR DOES NOT SUPPORT BOXTEN SEX GUI.")
+    return
 end
-
-
 
 local function go()
-local source=get"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/init/load.lua"
-if source then
-loadstring(source)()
-else
-say("p","Something went wrong while trying to execute Boxten Sex GUI.")
-warn"[Poppy]: Something went wrong while trying to execute Boxten Sex GUI."
-end
-end
+    local source=get"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/init/load.lua"
 
-
+    if source then
+        loadstring(source)()
+    else
+        say("p","Something went wrong while trying to execute Boxten Sex GUI.")
+        warn"[Poppy]: Something went wrong while trying to execute Boxten Sex GUI."
+    end
+end
 
 go()
