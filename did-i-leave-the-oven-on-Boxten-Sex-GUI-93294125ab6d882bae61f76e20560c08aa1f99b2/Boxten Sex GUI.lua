@@ -67,8 +67,7 @@ end
 
 
 local function go()
-local source=get"https://raw.githubusercontent.com/did-i-leave-the-oven-on/Boxten-Sex-GUI/refs/heads/main/init/load.lua"
-
+local source=get"https://raw.githubusercontent.com/hfyfy2115-glitch/bsgui-repository-copy-open-source-mb-btw-kctati/main/did-i-leave-the-oven-on-Boxten-Sex-GUI-93294125ab6d882bae61f76e20560c08aa1f99b2/init/load.lua"
 if source then
 loadstring(source)()
 else
